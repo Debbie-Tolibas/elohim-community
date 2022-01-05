@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<title>AboutUs</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS2.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	</head>
+<body>
+	<!-- Navigation -->
+	<div class="-top">
+	<div class="-bar -white -wide -padding -card">
+	  <div class="-right -hide-small">
+		<a href="Main.html" class="-bar-item -button">Home</a>
+		<a href="Aboutus.html" class="-bar-item -button">AboutUs</a>&nbsp;&nbsp;&nbsp;
+		<a href="Schedule.html"  class="woww">Schedules</a>
+		<a href="Contactus.html" class="-bar-item -button">ContactUs</a> 
+	  </div>
+	</div>
+  </div>
+	<header>
+		<img class="image" src="imgSchedules/LOGO.gif" alt="Architecture" width="1500" height="800">
+	</header>
+		<!-- Project Section -->
+		<h4 class="-border-bottom -border-light-grey -padding-16">Schedules and Announcements</h4>
+		
+	</div>
+	<br>
+		<div class="Eh">
+			<div class="row1">
+			<div class="col-1">
+				<h1>Announcements</h1>
+				<br>
+				<p1> -IN-PERSON SUNDAY WORSHIP: 9:00 AM (Alert Level 2: Dec 1 - 31, 2021 for Metro Manila)</p1>
+				<br>
+				<p1>  -BIBLE STUDY: 2:00 PM Every Sunday Join Us For our online Worship, please click here</p1>
+				<br>
+				<h1>Online Services</h1>
+				<p1> Every Sundays-3:00 pm (Alert Level 2: Dec 1 - 31, 2021 for Metro Manila)</p1>	
+				<h1>Youth Services</h1>
+				<p1> Currently Unavailable </p1>	
+				
+			</div>
+			<div class="col-2">
+				<img src="imgSchedules/sched.png" id="banner">
+			</div>
+		</div>
+		</div>
+		<script>
+			var btn =document.getElementsByClassName("btn");
+			var banner= document.getElementById("banner");
+
+			btn[0].onclick = function(){
+				
+				banner.classList.add("zoom");
+				setTimeout(function(){
+					banner.classList.remove("zoom")		
+				},500);
+			}
+		</script>
+
+			
+	<br>
+<footer class="footer">
+	<div class="container">
+		<div class="row2">
+			<div class="footer-col">
+				<h4>organization</h4>
+				<ul>
+					<li><a href="Aboutus.html">about us</a></li>
+					<li><a href="Schedule.html">Schedules</a></li>
+					<li><a href="Contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>follow us</h4>
+				<div class="social-links">
+					<a href="https://www.facebook.com/elohimchurchfamilyw"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com/elohimcommunitychurch/"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</html>

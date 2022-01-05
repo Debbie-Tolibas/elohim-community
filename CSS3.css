@@ -4,11 +4,11 @@ html, body {
     font-size: 18px;
     line-height: 1.5;
 	box-sizing: inherit;
-    background-image: url("image/BG1.png");
+    background-image: url("pictures/BG1.png");
 }
 .-white, .-hover-white:hover {
     color:  black;
-    background-image: url(image/Light.jpg);
+    background-image: url("pictures/Light.jpg");
 }
 .-button:hover {
     color: #000;
@@ -111,7 +111,7 @@ img {
 }
 .-border-bottom {
     border-bottom: 1px solid #ccc;
-    background-image: url(image/Light.jpg);
+    background-image: url("pictures/Light.jpg");
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 
 }
@@ -178,7 +178,7 @@ h4{
 .-row-padding{
     border-radius: 15px;
     padding: 0 8px;
-    background-image: url("image/Light.jpg");
+    background-image: url("pictures/Light.jpg");
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -245,7 +245,7 @@ h4{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     width: 100%;
-    background-image: url("image/Light.jpg");
+    background-image: url("pictures/Light.jpg");
     border-radius: 15px;
     overflow: hidden;
 }

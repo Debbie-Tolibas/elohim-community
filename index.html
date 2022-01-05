@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<title>HOMPAGE</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSSMain.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	</head>
+<body>
+	<!-- Navigation -->
+	<div class="-top">
+	<div class="-bar -white -wide -padding -card">
+	  <div class="-right -hide-small">
+		<a href="Main.html" class="woww">Home</a>
+		<a href="Aboutus.html" class="-bar-item -button">AboutUs</a>&nbsp;&nbsp;&nbsp;
+		<a href="Schedule.html" class="-bar-item -button">Schedules</a>
+		<a href="Contactus.html" class="-bar-item -button">ContactUs</a> 
+	  </div>
+	</div>
+  </div>
+	<header>
+		<img class="image" src="image\LOGO.gif" alt="Architecture" width="1500" height="800">
+	</header>
+		<!-- Project Section -->
+		<h4 class="-border-bottom -border-light-grey -padding-16">Onsite Service Every Sunday</h4>
+		<div class="-row-padding">
+		<div class="row">
+			<div class="-container -padding-32">
+				<div class="col">
+					<br>
+					<div class="card card1">
+						<h5></h5>
+					</div>
+				</div>
+			</div>
+		  <div class="col">
+			  <h1>Join Us!</h1>
+			  <p>-IN-PERSON SUNDAY WORSHIP: 9:00 AM (Alert Level 2: Dec 1 - 31, 2021 for Metro Manila) </p>
+			  <p>-BIBLE STUDY: 2:00 PM Every Sunday Join Us For our online Worship, please click here</p>
+				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  <button type="button">Worship Online</button>
+		  </div>
+		</div>
+	</div>
+	<br>
+		<div class="Eh">
+			<div class="row1">
+			<div class="col-1">
+				<h1>Bible Verse of the Day</h1>
+				<p1>"Therefore, my brothers, I want you to know that through Jesus the forgiveness of sins is proclaimed to you. 
+					Through him everyone who believes is justified from everything you could not be justified from by the law of Moses."
+				</p1>
+				<br>
+				<p1>—Acts 13:38-39</p1>
+				<ul class="wan">
+					<li class="btn active"></li>
+					<li class="btn"></li>
+					<li class="btn"></li>
+				</ul>
+			</div>
+			<div class="col-2">
+				<img src="image/pic1.png" id="banner">
+			</div>
+		</div>
+		</div>
+		<script>
+			var btn =document.getElementsByClassName("btn");
+			var banner= document.getElementById("banner");
+
+			btn[0].onclick = function(){
+				banner.src = "image/pic1.png"
+				
+				banner.classList.add("zoom");
+				setTimeout(function(){
+					banner.classList.remove("zoom")		
+				},500);
+			}
+			btn[1].onclick = function(){
+				banner.src = "image/pic2.png"
+				banner.classList.add("zoom");
+				setTimeout(function(){
+					banner.classList.remove("zoom")		
+				},500);
+			}
+			btn[2].onclick = function(){
+				banner.src = "image/pic3.png"
+				banner.classList.add("zoom");
+				setTimeout(function(){
+					banner.classList.remove("zoom")		
+				},500);
+			}
+		</script>
+
+			
+		<div class="-row-padding">
+		
+			<div class="gallery">
+				
+			</div>
+			<br>
+			<div class="-container -padding-32" >
+		<h3 class="-border-bottom -border-light-grey -padding-16">SUNDAY MORNING WORSHIP SERVICE</h3>
+	  </div>
+			<div class="col">
+				<div class="features-vid">
+					<br>
+				<center><iframe class="wow" width="850" height="480" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Felohimchurchfamily%2Fvideos%2F577492703555473%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></center>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>	
+</div>
+</body>
+<br>
+<footer class="footer">
+	<div class="container">
+		<div class="row2">
+			<div class="footer-col">
+				<h4>organization</h4>
+				<ul>
+					<li><a href="Aboutus.html">about us</a></li>
+					<li><a href="Schedule.html">Schedules</a></li>
+					<li><a href="Contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>follow us</h4>
+				<div class="social-links">
+					<a href="https://www.facebook.com/elohimchurchfamilyw"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com/elohimcommunitychurch/"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</html>

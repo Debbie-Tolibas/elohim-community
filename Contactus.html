@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<title>ContactUs</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS3.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	</head>
+<body>
+	<!-- Navigation -->
+	<div class="-top">
+	<div class="-bar -white -wide -padding -card">
+	  <div class="-right -hide-small">
+		<a href="Main.html" class="-bar-item -button">Home</a>
+		<a href="Aboutus.html" class="-bar-item -button">AboutUs</a>&nbsp;&nbsp;&nbsp;
+		<a href="Schedule.html" class="-bar-item -button">Schedules</a>
+		<a href="Contactus.html" class="woww">ContactUs</a> 
+	  </div>
+	</div>
+  </div>
+	<header>
+		<img class="image" src="imgContactus/LOGO.gif" alt="Architecture" width="1500" height="800">
+	</header>
+		
+	<br>
+		<div class="Eh">
+			<div class="row1">
+			<div class="col-1">
+				<!--div for news -->
+		<div class="sendmessage">
+			<div class="sendmessage-round">
+			<br>
+			<center><h1>Contact Us</h1>
+			<br>
+			<br>
+			We are happy to answer any of your questions.
+			<br>
+			<br>
+			Fill out the forms and we'll be in touch as soon as possible.	
+			
+			<br>
+			<br>
+			</center>
+			<br>
+			<br>
+		<form>
+			<br>
+			<br>
+			<label for="Name">Name</label>
+			<br>
+			<br>
+			<input type="text" id="Name" name="Name">
+			<br>
+			<br>
+			<label for="Eadd">Email Address</label>
+			<input type="text" id="Eadd" name="Eadd">
+			<br>
+			<br>
+			<label>Questions</label>
+			<br>
+			<br>
+			<textarea name="Message"> </textarea>
+			<br>
+			<br>
+			<input type="button" value="Send Message">
+		</form>
+		</div>
+
+			
+		</div>
+			</div>
+			<div class="col-2">
+				<img src="imgContactus/Contact.png" id="banner">
+			</div>
+		</div>
+		</div>
+		<script>
+			var btn =document.getElementsByClassName("btn");
+			var banner= document.getElementById("banner");
+
+			btn[0].onclick = function(){
+				banner.src = "image/pic1.png"
+				
+				banner.classList.add("zoom");
+				setTimeout(function(){
+					banner.classList.remove("zoom")		
+				},500);
+		</script>
+
+			
+		<div class="-row-padding">
+		
+			<div class="gallery">
+				
+			</div>
+			<br>
+			<div class="-container -padding-32" >
+		<h3 class="-border-bottom -border-light-grey -padding-16">SUNDAY MORNING WORSHIP SERVICE</h3>
+	  
+</body>
+<br>
+<footer class="footer">
+	<div class="container">
+		<div class="row2">
+			<div class="footer-col">
+				<h4>organization</h4>
+				<ul>
+					<li><a href="Aboutus.html">about us</a></li>
+					<li><a href="Schedule.html">Schedules</a></li>
+					<li><a href="Contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>follow us</h4>
+				<div class="social-links">
+					<a href="https://www.facebook.com/elohimchurchfamilyw"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com/elohimcommunitychurch/"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</html>

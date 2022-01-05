@@ -8,7 +8,7 @@ html, body {
 }
 .-white, .-hover-white:hover {
     color:  black;
-    background-image: url(pictures/Light.jpg);
+    background-image: url("pictures/Light.jpg");
 }
 .-button:hover {
     color: #000;
@@ -111,7 +111,7 @@ img {
 }
 .-border-bottom {
     border-bottom: 1px solid #ccc;
-    background-image: url(pictures/Light.jpg);
+    background-image: url("pictures/Light.jpg");
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 
 }
@@ -435,7 +435,7 @@ button:hover{
     box-sizing: border-box;
     cursor: pointer;
     margin: 15px 30px;
-    background-image: url(pictures/gg.jpg);
+    background-image: url("pictures/gg.jpg");
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
